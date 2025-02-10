@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run midi-scroller-mac.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/midi-scroller-mac.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Run midi-scroller-other.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/midi-scroller-other.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "C: Build and Run midi-scroller-mac",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/midi-scroller-mac",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "MIMode": "lldb",  
+            "preLaunchTask": "build midi-scroller-mac"
+        }
+    ]
+}

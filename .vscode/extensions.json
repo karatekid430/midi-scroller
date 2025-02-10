@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        // C/C++ Extensions
+        "ms-vscode.cpptools",
+        // Python Extensions
+        "ms-python.python",
+    ]
+}
